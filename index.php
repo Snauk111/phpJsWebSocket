@@ -8,6 +8,17 @@
     <title>phpJsWebSocket</title>
 </head>
 <body>
-
+<form id="pjws-form" action="">
+    <div id="message-result">
+        <label for="client-user">
+            <input type="text" name="client-user" placeholder="Name">
+        </label>
+        <label for="client-message">
+            <input type="text" name="client-message" placeholder="Message">
+        </label>
+        <input type="submit" value="Send">
+    </div>
+</form>
+<script src="js/script.js"></script>
 </body>
 </html>
